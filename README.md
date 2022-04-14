@@ -6,7 +6,7 @@ The site uses Python/Flask and has two basic endpoints:
 
 /?emoji={emoji_name}    
 This returns a welcome message where {emoji_name} is one of the emoji strings returned by /all.    
-If emoji_name == None, it just interpolates None.   
+If emoji_name == None, it gives a welcome message.   
 Sample route: https://bpoeter-trial.uc.r.appspot.com/?emoji=snake
 
 /all   
